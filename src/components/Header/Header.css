@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* sizing LOGO */
+.Logo{
+    width: 10rem;
+    height: 3rem;
+}
+
+/* styling header menu */
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+/* Adding hovering animations on header menu */
+.header-menu>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
